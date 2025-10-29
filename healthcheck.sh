@@ -16,31 +16,31 @@ echo "========================================" >> $logfile
 echo " System Health Check - $timestamp" >> $logfile
 echo "========================================" >> $logfile
 
-# 1️⃣ System Date and Time
+# 1️ System Date and Time
 echo -e "\n[DATE & TIME]" >> $logfile
 date >> $logfile
 
-# 2️⃣ System Uptime
+# 2️ System Uptime
 echo -e "\n[UPTIME]" >> $logfile
 uptime -p >> $logfile
 
-# 3️⃣ CPU Load
+# 3️ CPU Load
 echo -e "\n[CPU LOAD]" >> $logfile
 uptime >> $logfile
 
-# 4️⃣ Memory Usage
+# 4️ Memory Usage
 echo -e "\n[MEMORY USAGE]" >> $logfile
 free -m >> $logfile
 
-# 5️⃣ Disk Usage
+# 5️ Disk Usage
 echo -e "\n[DISK USAGE]" >> $logfile
 df -h >> $logfile
 
-# 6️⃣ Top 5 Memory Consuming Processes
+# 6️ Top 5 Memory Consuming Processes
 echo -e "\n[TOP 5 MEMORY CONSUMING PROCESSES]" >> $logfile
 ps aux --sort=-%mem | head -n 6 >> $logfile
 
-# 7️⃣ Check Services
+# 7️ Check Services
 echo -e "\n[SERVICE STATUS]" >> $logfile
 services=("nginx" "ssh" "docker")
 
