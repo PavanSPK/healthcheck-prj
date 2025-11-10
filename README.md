@@ -1,11 +1,11 @@
-# 🩺 System Health Check Script (healthcheck.sh)
+#  System Health Check Script (healthcheck.sh)
 
 This project provides a simple **Bash-based system health monitoring script** that gathers and logs key system statistics such as CPU usage, memory, uptime, and service status.  
 It is useful for **DevOps engineers, system administrators, and learners** who want to automate server monitoring.
 
 ---------------------------------------------------------------------
 
-## 📜 Project Overview
+##  Project Overview
 
 The script `healthcheck.sh` performs a series of checks to monitor the current state of your system.  
 It collects information about uptime, CPU load, memory, disk usage, and services, and saves the data into a log file named `healthlog.txt` — along with a timestamp.
@@ -14,22 +14,22 @@ This log can be useful for identifying performance trends, debugging system issu
 
 ---------------------------------------------------------------------
 
-## ⚙️ Features
+##  Features
 
 | Feature | Description |
 |----------|-------------|
-| 🕒 **System Date & Time** | Displays the current system date and time |
-| ⏱ **Uptime** | Shows how long the system has been running |
-| 🧠 **CPU Load** | Displays current CPU load using the `uptime` command |
-| 💾 **Memory Usage** | Shows used and available memory using `free -m` |
-| 💽 **Disk Usage** | Lists disk space details using `df -h` |
-| 🔝 **Top 5 Memory-Consuming Processes** | Displays the 5 processes using the most memory |
-| 🧰 **Service Status Check** | Verifies if specific services (like nginx, ssh, docker) are running |
-| 📝 **Log File Creation** | Appends all the above information into `healthlog.txt` with timestamps |
+|  **System Date & Time** | Displays the current system date and time |
+|  **Uptime** | Shows how long the system has been running |
+|  **CPU Load** | Displays current CPU load using the `uptime` command |
+|  **Memory Usage** | Shows used and available memory using `free -m` |
+|  **Disk Usage** | Lists disk space details using `df -h` |
+|  **Top 5 Memory-Consuming Processes** | Displays the 5 processes using the most memory |
+|  **Service Status Check** | Verifies if specific services (like nginx, ssh, docker) are running |
+|  **Log File Creation** | Appends all the above information into `healthlog.txt` with timestamps |
 
 ---------------------------------------------------------------------
 
-## 🧩 Requirements
+##  Requirements
 
 - Any **Linux environment** (Ubuntu, Debian, CentOS, etc.)
 - Bash shell
@@ -38,7 +38,7 @@ This log can be useful for identifying performance trends, debugging system issu
 
 -------------------------------------------------------------------
 
-## 🚀 How to Run
+##  How to Run
 
 1. **Clone the repository**
    ```bash
@@ -63,7 +63,7 @@ This log can be useful for identifying performance trends, debugging system issu
 
 ---
 
-## 🧾 Sample Log Output
+##  Sample Log Output
 
 ```
 ========================================
@@ -114,12 +114,12 @@ nginx: NOT RUNNING
 ssh: NOT RUNNING
 docker: NOT RUNNING
 
-✅ Health check completed at 2025-10-29 07:33:17
+ Health check completed at 2025-10-29 07:33:17
 ```
 
 --------------------------------------------------------------------
 
-## 🧠 Notes
+##  Notes
 
 - You can modify the list of services to check inside the script.
 - The log file **appends** data each time you run the script.
@@ -127,7 +127,7 @@ docker: NOT RUNNING
 
 ---------------------------------------------------------------------
 
-## 👨‍💻 Author
+##  Author
 
 **PavanSPK**  
-🔗 GitHub: [@PavanSPK](https://github.com/PavanSPK)
+ GitHub: [@PavanSPK](https://github.com/PavanSPK)
