@@ -46,7 +46,7 @@ nginx: NOT RUNNING
 ssh: NOT RUNNING
 docker: NOT RUNNING
 
-✅ Health check completed at 2025-10-29 07:33:17
+ Health check completed at 2025-10-29 07:33:17
 
 ----------------------------------------------------------
 ========================================
@@ -97,7 +97,7 @@ nginx: NOT RUNNING
 ssh: NOT RUNNING
 docker: NOT RUNNING
 
-✅ Health check completed at 2025-10-29 08:32:43
+ Health check completed at 2025-10-29 08:32:43
 
 ----------------------------------------------------------
 ========================================
@@ -148,7 +148,7 @@ nginx: NOT RUNNING
 ssh: NOT RUNNING
 docker: NOT RUNNING
 
-✅ Health check completed at 2025-10-29 09:45:45
+ Health check completed at 2025-10-29 09:45:45
 
 ----------------------------------------------------------
 ========================================
@@ -199,6 +199,6 @@ nginx: NOT RUNNING
 ssh: NOT RUNNING
 docker: NOT RUNNING
 
-✅ Health check completed at 2025-10-29 11:24:30
+ Health check completed at 2025-10-29 11:24:30
 
 ----------------------------------------------------------
