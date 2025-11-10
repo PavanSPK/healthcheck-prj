@@ -54,5 +54,5 @@ do
     fi
 done
 
-echo -e "\n✅ Health check completed at $timestamp\n" >> $logfile
+echo -e "\n Health check completed at $timestamp\n" >> $logfile
 echo "----------------------------------------------------------" >> $logfile
